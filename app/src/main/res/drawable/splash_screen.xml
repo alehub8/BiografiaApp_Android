@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item android:height="914dp" android:width="914dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/purple_200"/>
+                </shape>
+            </item>
+            <item android:height="360dp" android:width="360dp" android:gravity="center">
+                <bitmap android:src="@drawable/splash" />
+            </item>
+        </layer-list>
+    </item>
+</selector>
